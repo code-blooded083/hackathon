@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+   #list{
+  display:flex;
+  position: absolute;
+  left:790px;
+  top:10px;
+
+
+    list-style-type: none;
+    margin-top: 14px;
+    /* width: 110px; */
+
+   }
+
+.margin{
+    margin:0px 19px;
+}
+li a{
+    text-decoration: none;
+    font-size: 18px;
+    color:#3a3a3a;
+}
+li a::after{
+    content:'';
+    height: 4px;
+    width: 0;
+    background: #c94969d5;
+    transition: all .5s;
+    display: block;
+}
+li a:hover::after{
+    width: 100%;
+
+}
+li a:hover{
+    color:#3a3a3a;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top:160px;
+    margin-top: 25px;
+}
+.btnstyle{
+    margin:20px 0px;
+    padding: 16px 55px;
+    border-radius: 15px;
+    color: #191919;
+    font-size: 18px;
+}
+.btnstyle:hover{
+    background-color: #c94969d5;
+}
+.logo{
+    width: 110px;
+    position: absolute;
+
+}
+#search{
+    border-radius: 20px;
+   
+    padding:10px 80px 10px 33px;
+   
+  
+}
+.searchbar{
+    position: absolute;
+    left:390px;
+    margin-top: 14px;
+}
+#search:hover{
+    background-color:#c94969d5 ;
+    cursor:pointer;
+}
+#image{
+  position: relative;
+  right:269px;
+  top:10px;
+  width:20px;
+  margin-bottom: 5px;
+
+}
+.cl1::-webkit-input-placeholder{
+    color:white;
+}
+.cl2::-webkit-input-placeholder{
+    color:rgb(54, 53, 53);
+}
+.header{
+    width:1260px;
+    height:68.52px;
+    background-color: #33323249;
+}
